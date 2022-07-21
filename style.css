@@ -1,0 +1,28 @@
+html, body
+{
+  height: 100%;
+  margin: 0;
+}
+
+body
+{
+	background-color: #fff;
+	height: 100%;
+	width:100%;
+    background-image: linear-gradient(to right top, #ff6596, #751aca, #60bef8, #d88cff);
+	background-size: 600%600%;
+    animation: bgAnimatedGradient 4s infinite linear;
+}
+
+@keyframes bgAnimatedGradient{
+	0%{
+		background-position: 0 85%;
+	}
+	50%{
+		background-position: 100% 20%;
+	}
+	100%{
+		background-position: 0% 85%;
+	}
+}
+
